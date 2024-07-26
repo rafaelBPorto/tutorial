@@ -6,8 +6,5 @@ export default defineNuxtConfig({
     css: "/<srcDir>/assets/css",
   },
 
-  app: {
-    baseURL: process.env.BASE_URL || "http:localhost:3000",
-  },
   css: ["@/assets/css/main.css"],
 });
